@@ -13,7 +13,7 @@
   			<img src="logo-ucm.gif" alt="Universidad Complutense">
 			<p id='logo-text'>Universidad Complutense de Madrid, proyecto de investigación SPIRIM</p>
 			<p class="block-text">
-				En este cuestionario, se le presentará una frase en la que falta por incluir una forma verbal, y tres opciones. Hay 50 frases que completar.
+				En este cuestionario, se recoge información acerca del aprendizaje de español. Consiste en una serie de frases que hay que completar eligiendo una opción entre tres posibilidades.  Y finalmente, algunas preguntas sobre los idiomas que usted conoce y/o estudia.
 			</p>
 			<input id="startButton" type="button" name="Begin" value="Empieza" onclick="begin()" />
     		</p>
@@ -22,6 +22,19 @@
   
 				Su participación en el cuestionario es voluntario, y no habrá ninguna consecuencia adversa de no participar.  Los investigadores que solicitan su participación guadarán la información que aporta usted en la más estricta confidencialidad, empleándola únicamente para la investigación sobre el aprendizaje del español.
   			</p>
+		</div>
+		<div class="slide" id="instructions">
+		<p class="notcentered"><b>Instrucciones</b></p>
+	  
+				<p class="notcentered">Las frases que verá usted en este cuestionario están pensadas para ayudarnos a entender cómo se aprende a utilizar las diferentes formas verbales del español. El cuestionario incluye <span class="numberofquestions">50</span> frases. Elija la forma verbal que le parezca mejor para completar la frase. Si le parece que las opciones son muy similares, elija la forma que le resulte más natural en la frase.
+				</p>
+				<p class="notcentered">En este cuestionario, se le presentará una frase en la que falta por incluir una forma verbal, y tres opciones. Usted deberá elegir cuál de las tres opciones le parece mejor. Por ejemplo:<p>
+				<p class="block-text">Hoy hace frío por lo que no nos _______________ salir.</p><br>
+					responseOption1: "apetece", 
+					responseOption2: "apetecemos", 
+					responseOption3: "apetecería",
+				<p class="notcentered">Por favor, pinche en el EMPEZAR cuando esté preparado para empezar el cuestionario.</p>
+			<input id="startButton" type="button" name="Start" value="Empezar" onclick="start()" />
 		</div>
 
 		<div class="slide" id="intro">
@@ -59,13 +72,7 @@
 				</fieldset>
 				</form>
 
-				<p class="notcentered"><b>Instrucciones</b></p>
-	  
-				<p class="notcentered">Las frases que verá usted en este cuestionario están pensadas para ayudarnos a entender cómo se aprende a utilizar las diferentes formas verbales del español. El cuestionario incluye <span class="numberofquestions">50</span> frases. Elija la forma verbal que le parezca mejor para completar la frase. Si le parece que las opciones son muy similares, elija la forma que le resulte más natural en la frase.
-				</p>
-				<p class="notcentered">Por favor, pinche en el EMPEZAR cuando esté preparado para empezar el cuestionario.</p>
-			<input id="startButton" type="button" name="Start" value="Empezar" onclick="start()" />
-		</div>
+				
 		<div class="slide" id="stage">
   			<h3 class="centered">Frase <span id="qnumber"></span> de <span id="qtotal">50</span></h3>
 			<br/>
